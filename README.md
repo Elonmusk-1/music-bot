@@ -1,11 +1,11 @@
-<h1 align="centre">DAISYXMUSIC V4.0 🎵</h1>
+<h1 align="centre">Mahakal Music🎵</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
-### Available on telegram as [@DaisyXbot](https://t.me/daisyxbot)
+### Available on telegram as [@MahakalMusicBot](https://t.me/MahakalMusicBot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/1d7eb1121e740ebe7330f.jpg">
 </p>
 
 <h2> Features 🔥 </h2>
@@ -25,10 +25,10 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teamdaisyx/DaisyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LuckyRajputOP/MahakalMusic)
 
 Get pyrogram (p)  `SESSION` from here:
-[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@SpEcHiDe/GenerateStringSession)
+[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://replit.com/@LUCKYRAJPUTOP1/MahakalMusicBot)
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
@@ -110,9 +110,10 @@ Don't edit this part
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 
 This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork daisyxmusic won't exist. 
-DaisyXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @DaisyXbot users
+DaisyXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @MahakalMusicBot users
 
 #### Contribtors
+- [Lucky Rajput] (https://github.com/LuckyRajputOP): Dev
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Rojserbest](http://github.com/rojserbes): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
