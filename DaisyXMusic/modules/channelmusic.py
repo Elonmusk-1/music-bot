@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project)
+# MahakalMusic (Telegram bot project)
 # Copyright (C) 2021  Inukaasith
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
@@ -32,29 +32,29 @@ from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from DaisyXMusic.modules.play import generate_cover
-from DaisyXMusic.modules.play import arq
-from DaisyXMusic.modules.play import cb_admin_check
-from DaisyXMusic.modules.play import transcode
-from DaisyXMusic.modules.play import convert_seconds
-from DaisyXMusic.modules.play import time_to_seconds
-from DaisyXMusic.modules.play import changeImageSize
-from DaisyXMusic.config import BOT_NAME as bn
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.config import UPDATES_CHANNEL as updateschannel
-from DaisyXMusic.config import que
-from DaisyXMusic.function.admins import admins as a
-from DaisyXMusic.helpers.errors import DurationLimitError
-from DaisyXMusic.helpers.decorators import errors
-from DaisyXMusic.helpers.admins import get_administrators
-from DaisyXMusic.helpers.channelmusic import get_chat_id
-from DaisyXMusic.helpers.decorators import authorized_users_only
-from DaisyXMusic.helpers.filters import command, other_filters
-from DaisyXMusic.helpers.gets import get_file_name
-from DaisyXMusic.services.callsmusic import callsmusic, queues
-from DaisyXMusic.services.callsmusic.callsmusic import client as USER
-from DaisyXMusic.services.converter.converter import convert
-from DaisyXMusic.services.downloaders import youtube
+from MahakalMusic.modules.play import generate_cover
+from MahakalMusic.modules.play import arq
+from MahakalMusic.modules.play import cb_admin_check
+from MahakalMusic.modules.play import transcode
+from MahakalMusic.modules.play import convert_seconds
+from MahakalMusic.modules.play import time_to_seconds
+from MahakalMusic.modules.play import changeImageSize
+from MahakalMusic.config import BOT_NAME as bn
+from MahakalMusic.config import DURATION_LIMIT
+from MahakalMusic.config import UPDATES_CHANNEL as updateschannel
+from MahakalMusic.config import que
+from MahakalMusic.function.admins import admins as a
+from MahakalMusic.helpers.errors import DurationLimitError
+from MahakalMusic.helpers.decorators import errors
+from MahakalMusic.helpers.admins import get_administrators
+from MahakalMusic.helpers.channelmusic import get_chat_id
+from MahakalMusic.helpers.decorators import authorized_users_only
+from MahakalMusic.helpers.filters import command, other_filters
+from MahakalMusic.helpers.gets import get_file_name
+from MahakalMusic.services.callsmusic import callsmusic, queues
+from MahakalMusic.services.callsmusic.callsmusic import client as USER
+from MahakalMusic.services.converter.converter import convert
+from MahakalMusic.services.downloaders import youtube
 
 chat_id = None
 
@@ -624,7 +624,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "MahakalMusic"
     usar = user
     wew = usar.id
     try:
@@ -755,7 +755,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "MahakalMusic"
     usar = user
     wew = usar.id
     try:
@@ -789,7 +789,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @DaisyXmusic to your Group and try again</b>",
+                        "\n\nOr manually add @MahakalPlayer to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
